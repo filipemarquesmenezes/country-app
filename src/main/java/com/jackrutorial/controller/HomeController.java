@@ -32,6 +32,9 @@ public class HomeController {
 	@RequestMapping(value = { "/viacep" }, method = RequestMethod.GET)
 	public ModelAndView viacep()  {
 		
+		System.out.println("Entrou no viacep");
+
+
 		ModelAndView model = new ModelAndView();
 
 		CustomForm customForm = new CustomForm();
